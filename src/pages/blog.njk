@@ -1,0 +1,12 @@
+---
+layout: layout.njk
+title: Блог
+permalink: /blog/
+pagination:
+  data: collections.posts
+  size: 6
+  alias: posts
+---
+<section class="page-heading"><p class="eyebrow">БЛОГ</p><h1>Записки о закупках Казахстана</h1><p class="lead">Практические разборы процедур, ошибок, жалоб и изменений правил.</p></section>
+<section class="section"><div class="grid grid-3">{% for post in posts %}<a class="card card-link" href="{{ post.url }}"><time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time><h2>{{ post.data.title }}</h2><p>{{ post.data.description }}</p><span>Читать →</span></a>{% else %}<p>Статьи появятся после предоставления и подготовки материалов.</p>{% endfor %}</div>
+<nav class="pagination" aria-label="Страницы блога">{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">← Новее</a>{% endif %}{% if pagination.href.next %}<a href="{{ pagination.href.next }}">Старее →</a>{% endif %}</nav></section>
