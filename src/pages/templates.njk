@@ -1,0 +1,7 @@
+---
+layout: layout.njk
+title: Шаблоны документов
+permalink: /templates/
+---
+<section class="page-heading"><p class="eyebrow">БЕСПЛАТНЫЕ МАТЕРИАЛЫ</p><h1>Шаблоны документов</h1><p class="lead">Скачивание бесплатно, без регистрации и заполнения форм.</p></section>
+<section class="section"><div class="grid grid-3">{% for document in documents %}<article class="card"><h2>{{ document.title }}</h2><p>{{ document.description }}</p>{% if document.updated %}<p class="note">Актуализировано: {{ document.updated }}</p>{% endif %}<a class="button" href="{{ document.file }}" download>Скачать бесплатно</a></article>{% else %}<p>Перечень и файлы шаблонов будут добавлены после предоставления материалов и проверки их актуальности.</p>{% endfor %}</div></section>
