@@ -6,6 +6,7 @@ pagination:
   data: collections.posts
   size: 6
   alias: posts
+  generatePageOnEmptyData: true
 ---
 <section class="page-heading"><p class="eyebrow">БЛОГ</p><h1>Записки о закупках Казахстана</h1><p class="lead">Практические разборы процедур, ошибок, жалоб и изменений правил.</p></section>
 <section class="section"><div class="grid grid-3">{% for post in posts %}<a class="card card-link" href="{{ post.url }}"><time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time><h2>{{ post.data.title }}</h2><p>{{ post.data.description }}</p><span>Читать →</span></a>{% else %}<p>Статьи появятся после предоставления и подготовки материалов.</p>{% endfor %}</div>
