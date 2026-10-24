@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2021 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="250px" height="300px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 250 300"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:none}
+    .fil1 {fill:#5791A5}
+    .fil2 {fill:url(#id0)}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="61" y1="93" x2="203" y2="236">
+   <stop offset="0" style="stop-opacity:1; stop-color:#FFBB00"/>
+   <stop offset="0.611765" style="stop-opacity:1; stop-color:#FF9309"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#FF900A"/>
+  </linearGradient>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <rect class="fil0" width="250" height="300"/>
+  <g id="_2111974170192">
+   <path id="Логотип_x0020_28Госзакупки29.cdr" class="fil1" d="M159 278c-23,6 -47,6 -69,-1 9,-1 15,-6 18,-13 4,4 8,6 13,7 -11,-12 -10,-24 0,-33 4,21 18,39 37,40l0 0 0 0zm41 -20c-7,5 -14,9 -22,13 3,-23 -5,-37 -14,-41 -13,-7 -28,4 -12,22 4,-18 21,-3 16,6 -3,5 -15,13 -25,3 -14,-16 -13,-42 14,-47 28,-1 42,18 43,44l0 0 0 0zm19 -17c-1,2 -3,3 -5,5 -1,1 -2,2 -4,4 0,-3 0,-5 -1,-9 4,1 6,1 9,1l0 0zm21 -32c-3,8 -8,15 -12,22 -25,-1 -45,-15 -44,-43 4,-27 31,-29 47,-14 10,10 2,22 -3,25 -9,5 -24,-12 -6,-16 -18,-16 -29,-1 -22,12 4,9 17,17 40,14l0 0 0 0 0 0zm6 -85c6,21 6,43 1,64 -2,-19 -19,-31 -39,-35 9,-10 21,-11 33,0 -1,-5 -3,-10 -7,-13 6,-3 10,-8 12,-16l0 0 0 0z"/>
+   <path id="Логотип_x0020_28Госзакупки29.cdr_0" class="fil2" d="M213 69c9,9 17,20 23,31 -10,38 -80,32 -71,86l-22 -11 11 22c-56,-9 -48,64 -88,71 -11,-6 -21,-13 -30,-22 -49,-49 -49,-128 0,-177 49,-49 128,-49 177,0l0 0 0 0 0 0z"/>
+  </g>
+ </g>
+</svg>
